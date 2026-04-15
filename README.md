@@ -6,44 +6,50 @@
 
 ## 🌐 Acesso Online
 
-👉 **[https://seu-usuario.vercel.app](https://seu-usuario.vercel.app)** ← *substitua pelo link gerado no deploy*
+👉 **[https://pokedex-app-fs8e.vercel.app](https://pokedex-app-fs8e.vercel.app)**
 
 ---
 
 ## 📸 Prints da Aplicação
 
 ### Página Inicial — Lista de Pokémon
+
 ![Home](./docs/screenshot-home.png)
 
 ### Filtro por Tipo
+
 ![Filtro](./docs/screenshot-filter.png)
 
 ### Detalhes do Pokémon
+
 ![Detalhe](./docs/screenshot-detail.png)
 
 ### Cadeia Evolutiva
+
 ![Evolução](./docs/screenshot-evolution.png)
 
 ### Página de Tipos
+
 ![Tipos](./docs/screenshot-types.png)
 
 ### Detalhes do Tipo
+
 ![Detalhe do Tipo](./docs/screenshot-type-detail.png)
 
-> *Prints gerados após o deploy da aplicação. Substituir pelas imagens reais.*
+> _Prints gerados após o deploy da aplicação. Substituir pelas imagens reais._
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-| Tecnologia | Versão | Descrição |
-|---|---|---|
-| [React](https://react.dev/) | 18.2 | Biblioteca principal para UI |
-| [React Router DOM](https://reactrouter.com/) | 6.22 | Roteamento e rotas dinâmicas |
-| [Vite](https://vitejs.dev/) | 5.1 | Bundler e servidor de desenvolvimento |
-| [PokéAPI](https://pokeapi.co/) | v2 | API pública RESTful de Pokémon |
-| CSS Modules (vanilla) | — | Estilização com variáveis CSS |
-| Google Fonts | — | Fontes Press Start 2P + Nunito |
+| Tecnologia                                   | Versão | Descrição                             |
+| -------------------------------------------- | ------ | ------------------------------------- |
+| [React](https://react.dev/)                  | 18.2   | Biblioteca principal para UI          |
+| [React Router DOM](https://reactrouter.com/) | 6.22   | Roteamento e rotas dinâmicas          |
+| [Vite](https://vitejs.dev/)                  | 5.1    | Bundler e servidor de desenvolvimento |
+| [PokéAPI](https://pokeapi.co/)               | v2     | API pública RESTful de Pokémon        |
+| CSS Modules (vanilla)                        | —      | Estilização com variáveis CSS         |
+| Google Fonts                                 | —      | Fontes Press Start 2P + Nunito        |
 
 ---
 
@@ -125,13 +131,13 @@ pokedex-app/
 
 ## 📌 Rotas Dinâmicas
 
-| Rota | Componente | Descrição |
-|---|---|---|
-| `/` | `Home` | Lista paginada com busca e filtro por tipo |
-| `/pokemon/:id` | `PokemonDetail` | Detalhes de um Pokémon pelo ID ou nome |
-| `/types` | `TypesPage` | Grid com todos os 18 tipos |
-| `/types/:type` | `TypeDetail` | Pokémon e relações de dano por tipo |
-| `*` | `NotFound` | Página 404 |
+| Rota           | Componente      | Descrição                                  |
+| -------------- | --------------- | ------------------------------------------ |
+| `/`            | `Home`          | Lista paginada com busca e filtro por tipo |
+| `/pokemon/:id` | `PokemonDetail` | Detalhes de um Pokémon pelo ID ou nome     |
+| `/types`       | `TypesPage`     | Grid com todos os 18 tipos                 |
+| `/types/:type` | `TypeDetail`    | Pokémon e relações de dano por tipo        |
+| `*`            | `NotFound`      | Página 404                                 |
 
 ---
 
@@ -211,16 +217,16 @@ Este projeto foi feito para deploy gratuito na [Vercel](https://vercel.com/).
 
 ### Critérios atendidos:
 
-| Critério | Status |
-|---|---|
-| Exibe dados de API externa | ✅ PokéAPI |
+| Critério                               | Status                                                 |
+| -------------------------------------- | ------------------------------------------------------ |
+| Exibe dados de API externa             | ✅ PokéAPI                                             |
 | Mais de uma página com rotas dinâmicas | ✅ 4 rotas (incluindo `/pokemon/:id` e `/types/:type`) |
-| README com instruções de uso | ✅ Este documento |
-| Tecnologias documentadas | ✅ Tabela de tecnologias |
-| Desenho da arquitetura | ✅ Diagrama ASCII |
-| Prints da aplicação | ✅ Pasta `/docs` |
-| Link da aplicação online | ✅ Topo do README |
-| Código versionado no GitHub | ✅ Commits organizados |
+| README com instruções de uso           | ✅ Este documento                                      |
+| Tecnologias documentadas               | ✅ Tabela de tecnologias                               |
+| Desenho da arquitetura                 | ✅ Diagrama ASCII                                      |
+| Prints da aplicação                    | ✅ Pasta `/docs`                                       |
+| Link da aplicação online               | ✅ Topo do README                                      |
+| Código versionado no GitHub            | ✅ Commits organizados                                 |
 
 ---
 
